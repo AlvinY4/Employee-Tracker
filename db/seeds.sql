@@ -1,6 +1,6 @@
-USE employees; 
+USE employee_tracker; 
 
-INSERT INTO department (names) 
+INSERT INTO department (department_name) 
 VALUES 
 ('Sales'),
 ('Engineering'),
@@ -10,7 +10,7 @@ VALUES
 ('Human Reasources'),
 ('Legal');  
 
-INSERT INTO roles (title, salary, department_id)
+INSERT INTO role (title, salary, department_id)
 VALUES 
 ('Sales Representative', 75000, 1),
 ('Engineer', 110000, 2),
